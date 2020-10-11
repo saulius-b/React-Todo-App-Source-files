@@ -1,1 +1,1 @@
-This is a TODO app, with Crud functionality (the data is saved on Firebase SDK Firestore). Theres also user authentication (using Firebase Authentication with their pre-built UI).
+This is a TODO app, with Crud functionality (the data is saved on Firebase SDK Firestore). There is also user authentication (using Firebase Authentication with their pre-built UI). Only authenticated users can read/write data.
