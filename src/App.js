@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { HashRouter as Router, Switch, Route} from "react-router-dom";
 import Todo from '../src/Components/Todo'
 import SignIn from '../src/Components/SignIn'
 
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

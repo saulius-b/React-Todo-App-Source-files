@@ -11,8 +11,7 @@ function SignIn() {
 
   ui.start('#firebaseui-auth-container', {
     signInOptions: [
-      firebase.auth.EmailAuthProvider.PROVIDER_ID,
-      firebase.auth.GoogleAuthProvider.PROVIDER_ID
+      firebase.auth.EmailAuthProvider.PROVIDER_ID
     ]
   });
 
@@ -28,8 +27,7 @@ function SignIn() {
     signInFlow: 'popup',
     signInSuccessUrl: 'http://localhost:3000/todo',
     signInOptions: [
-      firebase.auth.EmailAuthProvider.PROVIDER_ID,
-      firebase.auth.GoogleAuthProvider.PROVIDER_ID
+      firebase.auth.EmailAuthProvider.PROVIDER_ID
     ]
   };
 
